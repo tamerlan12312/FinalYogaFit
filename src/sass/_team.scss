@@ -1,0 +1,259 @@
+.team{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+    .teamp{
+        font-size: 50px;
+        font-family: 'Poiret One', cursive;
+        color: #CE7C9F;
+    }
+    .teamp1{
+        font-family: 'Catamaran', sans-serif;
+        font-size: 20px;
+    }
+    .container2{
+        border: 2px solid #fff;
+        .sheldonImg{
+            overflow: hidden;
+    
+            
+            img{
+                border-radius: 50%;
+                transition: 250ms;
+            }
+         
+        }
+        .sheldonp{
+            font-size: 20px;
+            font-family: 'Catamaran', sans-serif;
+            color: rgb(41, 41, 41);
+            transition: 250ms;
+            &:hover{
+                color: #CE7C9F;
+                cursor: pointer;
+            }
+        }
+        .sheldonp1{
+            color: #CE7C9F;
+            font-size: small;
+            font-family: 'Catamaran', sans-serif;
+            transform: translateY(-12px);
+        }
+        .sheldonp2{
+            color: #000;
+            font-size: small;
+            font-family: 'Catamaran', sans-serif;
+        }
+        .iconBox{
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba($color: #e3e9ec, $alpha: .5);
+            transition: 250ms;
+            background-color: #fff;
+            i{
+                color: #dbdbdb;
+            }
+            &:hover{
+                background-color: #CE7C9F;
+                cursor: pointer;
+            }
+        }
+    }
+    .container{
+        .ourteamp{
+            font-family: 'Poiret One', cursive;
+            font-size: 40px;
+            color: #2a303a;
+        }
+        .teamBox{
+            width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            .d-flex{
+                img{
+                    width: 45%;
+                    border-radius: 50%;
+                }
+            }
+            .teamp{
+                font-family: 'Catamaran', sans-serif;
+                font-size: 23px;
+                transition: 250ms;
+                &:hover{
+                    color: #CE7C9F;
+                    cursor: pointer;
+                }
+            }
+            .teamp1{
+                transform: translateY(-20px);
+                font-size: small;
+                font-family: 'Catamaran', sans-serif;
+                color: #CE7C9F;
+            }
+            .teamp2{
+                transform: translateY(-27px);
+                font-size: small;
+                color: rgb(139, 139, 139);
+            }
+            .teambtn{
+                width: 115px;
+                height: 38px;
+                border-radius: 50px;
+                font-size: 12px;
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                background-color: #EBECF2;
+                border: 2px solid #fff;
+                transition: 250ms;
+                transform: translateY(-20px);
+                &:hover{
+                    background-color: #CE7C9F;
+                    color: #fff;
+                    border: none;
+                }
+            }
+          
+        }  .allteam{
+            width: 160px;
+            height: 38px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bold;
+            background-color: #EBECF2;
+            border: 2px solid #fff;
+            transition: 250ms;
+            &:hover{
+                background-color: #CE7C9F;
+                color: #fff;
+                border: none;
+            }
+        }
+           .skillbar{
+            border-right: 2px solid #fff;
+            p{
+                font-family: 'Catamaran', sans-serif;
+                font-size: 20px;
+            }
+           }
+           .progressBar{
+               .container{
+                   background-color: transparent;
+                   border-radius: 10px;
+                }
+                .label{
+                   color: #fff;
+                   font-weight: bold;
+                   font-family: 'Catamaran', sans-serif;
+                      transform: translateX(-8px);
+                      font-size: small;
+               }
+            }
+    }
+    .container3{
+        width: 100%;
+        height: auto;
+        background-color: #6BC6CE;
+        // padding: 50px 0 50px 0;
+        margin-top: 70px;
+        .sliderp1{
+            font-family: 'Poiret One', cursive;
+            font-size: 35px;
+            color: #fff;
+        }
+        .slider{
+            .slick-next:before{
+                display: none !important;
+            }
+            .slick-prev:before{
+                display: none !important;
+            }
+            .slick-arrow, .slick-next{
+                display: none !important;
+            }
+            .slick-dots li button:before{
+                color: #fff !important;
+                border: 2px solid #fff !important;
+                border-radius: 50% !important;
+                width: 23px;
+                height: 23px;
+            }
+            .sliderp{
+                font-size: 25px;
+                text-align: center;
+                font-family: 'Poiret One', cursive;
+                color: #fff;
+            }
+            .sliderName{
+                font-size: 22px;
+                font-weight: bold;
+                font-family: 'Poiret One', cursive;
+                color: #fff;
+            }
+            .sliderName1{
+                font-size: 13px;
+                font-family: 'Poiret One', cursive;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media (max-width:920px){
+    .team{
+        .container{
+            .sheldonImg{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+            }
+            .sheldonp{
+                text-align: center;
+            }
+            .sheldonp1{
+                text-align: center;
+            }
+            .d-flex{
+                justify-content: center;
+            }
+
+        }
+    }
+}
+
+@media (max-width:768px){
+    .team{
+          .teamp{
+           font-size: 33px;
+          }
+          .teamp1{
+            font-size: 16px;
+            line-height: 23px;
+          }
+        .container{
+            .row{
+                .skillbar{
+                    border-right: none !important;
+                    p{
+                        font-size: medium;
+                        transform: translateY(4px);
+                    }
+                }
+            }
+        }
+        .container3{
+            .sliderp1{
+                font-size: 27px !important;
+            }
+            .sliderp{
+                font-size: 17px !important;
+            }
+        }
+    }
+}

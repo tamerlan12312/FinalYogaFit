@@ -1,0 +1,122 @@
+.ourclasses{
+    width: 100%;
+    height: auto;
+    background-color: #EBECF2;
+    .classesp{
+        font-size: 50px;
+        font-family: 'Poiret One', cursive;
+        padding-top: 60px;
+    }
+    .container{
+        .classesBox{
+            position: relative;
+            overflow: hidden;
+            img{
+                transition: 250ms;
+            }
+            .classesOverlay1{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba($color: #c57497, $alpha: .8);
+                opacity: 0;
+                transition: 250ms;
+                .classesOverlay{
+                    transition: 250ms;
+                    width: 80px;
+                    height: 80px;
+                    background-color:rgba($color: #D898B3, $alpha: .6);
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%); 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: 'Catamaran', sans-serif;
+                        font-size: 20px;
+                    }
+                    &:hover{
+                        background-color:rgba($color: #e7adc6, $alpha: .7) ;
+                        cursor: pointer;
+                    }
+    
+                }
+               
+            }
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+                .classesOverlay1{
+                    opacity: 1;
+                }
+                .classesOverlay{
+                    width: 170px;
+                    height: 170px;
+                }
+            }
+           
+        }
+        .classesp2{
+            font-family: 'Poiret One', cursive;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 250ms;
+            color: #000;
+            &:hover{
+                cursor: pointer;
+                color: #c57497;
+            }
+        }
+        .classesp3{
+            color: rgb(163, 163, 163);
+            font-size: 15px;
+            font-family: 'Catamaran', sans-serif;
+        }
+    }
+}
+
+
+@media (max-width:990px){
+    .ourclasses{
+        .container{
+            .classesBox{
+                .classesOverlay1{
+                    .classesOverlay{
+                        width: 100px;
+                        height: 100px;
+                        a{
+                            font-size: small;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .ourclasses{
+        .classesp{
+            font-size: 35px;
+        }
+       .container{
+        .row{
+            .classesp2{
+                font-size: 15px;
+            }
+            .classesp3{
+                font-size: 13px;
+                transform: translateY(-10px);
+            }
+        }
+       }
+    }
+}

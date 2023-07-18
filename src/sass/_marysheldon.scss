@@ -1,0 +1,76 @@
+.marysheldon{
+    width: 100%;
+    height: auto;
+    background-color: #62AED6;
+    .container{
+        border: 2px solid #B1D7EB;
+        .sheldonImg{
+            overflow: hidden;
+    
+            
+            img{
+                border-radius: 50%;
+                transition: 250ms;
+            }
+         
+        }
+        .sheldonp{
+            font-size: 20px;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bold;
+            color: #fff;
+        }
+        .sheldonp1{
+            color: #fff;
+            font-size: small;
+            font-family: 'Catamaran', sans-serif;
+            transform: translateY(-12px);
+        }
+        .sheldonp2{
+            color: #fff;
+            font-size: small;
+            font-family: 'Catamaran', sans-serif;
+        }
+        .iconBox{
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba($color: #e3e9ec, $alpha: .5);
+            transition: 250ms;
+            i{
+                color: rgba($color: #54a7d4, $alpha: .9);
+            }
+            &:hover{
+                background-color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width:920px){
+    .marysheldon{
+        .container{
+            .sheldonImg{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+            }
+            .sheldonp{
+                text-align: center;
+            }
+            .sheldonp1{
+                text-align: center;
+            }
+            .d-flex{
+                justify-content: center;
+            }
+
+        }
+    }
+}

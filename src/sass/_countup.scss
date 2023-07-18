@@ -1,0 +1,27 @@
+.countup{
+    width: 100%;
+    height: auto;
+    background-color: #E7B46C;
+    .container{
+        .row{
+            padding: 35px 0px 35px 0px;
+            .countBox{
+                i{
+                    font-size: 40px;
+                    color: #FDFFFF;
+                }
+                .countp{
+                    font-family: 'Poiret One', cursive;
+                    font-size: 40px;
+                    color: #FDFFFF;
+                }
+                .countp1{
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 18px;
+                    transform: translateY(-20px);
+                    color: #FDFFFF;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,239 @@
+.faqs{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+    .faqsp{
+        font-size: 45px;
+        font-family: 'Poiret One', cursive;
+    }
+    .faqsp1{
+        font-size: 20px;
+        font-family: 'Catamaran', sans-serif;
+        span{
+            color: #CE7C9F;
+        }
+    }
+    .faqsp2{
+        margin-top: 20px;   
+        font-size: 30px;
+        font-family: 'Poiret One', cursive;
+    }
+    .accordionBox{
+        .accordion{
+            background-color: transparent;
+            .accordionp{
+                font-family: 'Catamaran', sans-serif;
+                font-size: small;
+            }
+            ul{
+                li{
+                 font-size: small;
+                 font-family: 'Catamaran', sans-serif;
+                 color: rgb(104, 104, 104);
+                 line-height: 27px;
+                 transition: 250ms;
+                 &:hover{
+                    color: #CE7C9F;
+                    cursor: pointer;
+                 }
+                }
+            }
+            .accordion-item{
+                border: none;
+            }
+            .accordion-body{
+                background-color:#EBEBF3 ;
+            }
+            .accordion-button:not(.collapsed){
+                color: #CE7C9F;
+                font-family: 'Catamaran', sans-serif;
+                background-color: #EBEBF3;
+            }
+            .accordion-button{
+                color: #000;
+                font-family: 'Catamaran', sans-serif;
+                background-color: #EBEBF3;
+            }
+            .accordion-button:focus{
+               box-shadow: none;
+            }
+            .accordion-button::after{
+                background-image: none;
+                position: absolute;
+                content: '\002b';
+                font-size: 20px;
+                left: 0px;
+                top:11px;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background-color: #CE7C9F;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateX(-12px);
+            }
+            .accordion-button:not(.collapsed)::after{
+                background-image: none;
+                position: absolute;
+                content: '\2212';
+                font-size: 20px;
+                color: #fff;
+                left: 0px;
+                top:11px;
+                transform: none;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background-color: #CE7C9F;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateX(-12px);
+            }
+
+        }
+    }
+    .container{
+        .row{
+            label{
+                font-family: 'Catamaran', sans-serif;
+                font-size: small;
+                span{
+                    color: #CE7C9F;
+                }
+            }
+            .form-control{
+                border-radius: 0px;
+                background-color: transparent;
+                border: 2px solid #fff;
+                &:focus{
+                    box-shadow: none;
+                    border: 2px solid #CE7C9F;
+                    background-color: transparent;
+                }
+            }
+            .sendbtn{
+                width: 75px;
+                height: 38px;
+                border-radius: 50px;
+                font-size: 12px;
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                background-color: #EBECF2;
+                border: 2px solid #fff;
+                transition: 250ms;
+                &:hover{
+                    background-color: #CE7C9F;
+                    color: #fff;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+.comments{
+    width: 100%;
+    height: auto;
+    background-color: #F2F2EA;
+    .commentsp{
+        font-size: 40px;
+        font-family: 'Poiret One', cursive;
+    }
+    .commentBox{
+        border-right: 1px dotted rgb(216, 216, 216);
+        text-align: center;
+       .imgBox{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%,-0%);
+        img{
+            width: auto;
+            border-radius: 50%;
+            
+        }
+      &::before{
+        display: block;
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: "\201C";
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border-width: 2px;
+          border: 1px solid #ebecf2;
+        text-align: center;
+        line-height: 80px;
+        font-size: 65px;
+        color: #CE7C9F;
+        background-color: #fff;
+      }
+       }
+     
+        .commentp{
+            text-align: left;
+            font-family: 'Catamaran', sans-serif;
+            font-size: 23px;
+            transition: 250ms;
+            &:hover{
+                color: #CE7C9F;
+                cursor: pointer;
+            }
+        }
+        .commentp2{
+            text-align: left;
+            font-size: small;
+            color: #CE7C9F;
+            font-family: 'Catamaran', sans-serif;
+            transform: translateY(-10px);
+        }
+        .commentp3{
+            text-align: left;
+            font-size: small;
+            font-family: 'Catamaran', sans-serif;
+            transform: translateY(-20px);
+        }
+        
+    }
+}
+
+@media (max-width:768px){
+    .faqs{
+        .container{
+            .faqsp{
+                font-size: 30px;
+                text-align: center;
+            }
+            .faqsp1{
+                font-size: 15px;
+                text-align: center;
+            }
+            .faqsp1{
+                text-align: left;
+            }
+        }
+    }
+    .comments{
+        .commentsp{
+            font-size: 30px;
+        }
+        .commentp{
+            text-align: center !important;
+        }
+        .commentp2{
+            text-align: center !important;
+        }
+        .commentBox{
+            border-right: none;
+            border-bottom:1px dotted rgb(216, 216, 216) ;
+        }
+    }
+}

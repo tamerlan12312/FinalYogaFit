@@ -1,0 +1,246 @@
+.shopdetails{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+    .container{
+        .detailsBox{
+            img{
+                mix-blend-mode: multiply;
+            }
+        }
+        .detailsTxt{
+            .detailsp{
+                font-size: 40px;
+                font-family: 'Poiret One', cursive;
+                color: #000;
+            }
+            .detailsDes{
+                font-family: 'Catamaran', sans-serif;
+                color: #000;
+            }
+            .detailsIcon{
+                font-size: 15px;
+                color: #CE7C9F;
+                transform: translateY(-5px);
+            }
+            .detailsDes1{
+                font-family: 'Poiret One', cursive;
+                font-weight: bold;
+            }
+            .sendbtn{
+                width: 110px;
+                height: 42px;
+                border-radius: 50px;
+                font-size: 11px;
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                background-color: #EBECF2;
+                border: 2px solid #fff;
+                transition: 250ms;
+                &:hover{
+                    background-color: #CE7C9F;
+                    color: #fff;
+                    border: none;
+                    border: 2px solid #fff;
+                }
+             }
+            .sendbtn1{
+                width: 130px;
+                height: 42px;
+                border-radius: 50px;
+                font-size: 11px;
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                background-color: #CE7C9F;
+                border: 2px solid #fff;
+                transition: 250ms;
+                color: #fff;
+                &:hover{
+                    background-color: #5083cf;
+                    color: #fff;
+                    border: none;
+                    border: 2px solid #fff;
+                }
+             }
+        }
+        .reviews{
+            font-size: 25px;
+            font-family: 'Catamaran', sans-serif;
+        }
+        .detailsIcon{
+            color: #CE7C9F;
+            font-size: 14px;
+        }
+        .detailsIcon1{
+            color: #CE7C9F;
+            font-size: xx-small;
+        }
+        .reviewsp{
+            font-size: 20px;
+        }
+        .line{
+            width: 100%;
+            height: 2px;
+            background-color: #fff;
+            border-radius: 50px;
+        }
+        .commentImg{
+            img{
+                border-radius: 50%;
+            }
+        }
+        .commentp{
+            font-family: 'Catamaran', sans-serif;
+            font-size: 18px;
+            span{
+                font-size: 14px;
+                color: grey;
+            }
+        }
+        .commentBox{
+            .commentp1{
+                color: grey;
+                font-family: 'Catamaran', sans-serif;
+                font-size: 15px;
+            }
+        }
+        .form-control{
+            border-radius: 0px;
+            background-color: transparent;
+            border: 2px solid #fff;
+            &:focus{
+                box-shadow: none;
+                border: 2px solid #CE7C9F;
+                background-color: transparent;
+            }
+        }
+        .sendbtn{
+            width: 100px;
+            height: 42px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bold;
+            background-color: #EBECF2;
+            border: 2px solid #fff;
+            transition: 250ms;
+            &:hover{
+                background-color: #CE7C9F;
+                color: #fff;
+                border: none;
+                border: 2px solid #fff;
+            }
+        }
+        .shopBox{
+            .shopImg{
+             position: relative;
+             .cart{
+                 position: absolute;
+                 top: 0;
+                 right: 0;
+                 left: 0;
+                 bottom: 0;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 background-color: rgba($color: #ececec, $alpha: .4);
+                opacity: 0;
+                transition: 250ms;
+                 .d-flex{
+                     .iconBox{
+                         cursor: pointer;
+                         width: 50px;
+                         height: 50px;
+                         border-radius: 50%;
+                         background-color: #CE7C9F;
+                         margin: 5px;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         transform: translateY(-110px);
+                         transition: 250ms;
+                         i{
+                             font-size: 15px;
+                             color: #fff;
+                         }
+                     }
+                     .iconBox1{
+                         transition: .2s;
+                         &:hover{
+                             background-color: #5083cf;
+                         }
+                     }
+                     .iconBox2{
+                         transition: .4s;
+                           &:hover{
+                             background-color: #5083cf;
+                         }
+                     }
+                     .iconBox3{
+                         transition: .6s;
+                           &:hover{
+                             background-color: #5083cf;
+                         }
+                     }
+                 }
+             }
+             &:hover{
+                 .cart{
+                     opacity: 1;
+                     cursor: pointer;
+                   
+                     .d-flex{
+                         .iconBox{
+                             transform: translateY(0px);
+                             
+                         }
+                     }
+                    
+                 }
+             }
+            
+             
+          
+         }
+            
+             .shoptxt{
+                 font-family: 'Poiret One', cursive;
+                 font-size: 18px;
+                 font-weight: bold;
+                 transition: 250ms;
+                 &:hover{
+                     cursor: pointer;
+                     color: #CE7C9F;
+                 }
+             }
+             .shoptxt1{
+                 font-size: x-small;
+                 transform: translateY(21px);
+                 color: #CE7C9F;
+             }
+             img{
+                 mix-blend-mode:multiply; //                                         Onemli
+             }
+           }
+    }
+}
+
+
+@media (max-width:768px){
+    .shopdetails{
+        .container{
+            .row{
+                .shopBox{
+                    margin-top: 50px;
+                    .shoptxt{
+                        text-align: left;
+                        font-size: x-small;
+                    }
+                    .shoptxt1{
+                        font-size: 5.5px;
+                    }
+                }
+            }
+        }
+    }
+}

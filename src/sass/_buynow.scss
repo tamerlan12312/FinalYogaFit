@@ -1,0 +1,106 @@
+.buynow{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+    .checkout2{
+        .container{
+            .checkout{
+                font-family: 'Poiret One', cursive;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .checkSpan{
+                font-family: 'Catamaran', sans-serif;
+                font-weight: 600
+            }
+            .checkbox1{
+                accent-color: #e67aa9;
+                cursor: pointer;
+            }
+            form{
+                .form-control{
+                    height: 50px;
+                    transition: 250ms;
+                    background-color: #EBEBF3;
+                    &::placeholder{
+                        color: rgb(172, 172, 172);
+                        font-family: 'Catamaran', sans-serif;
+                        // font-weight: bold;
+                    }
+                    &:focus{
+                        outline: none;
+                        box-shadow: none;
+                        border-color:#66e4f0;
+                    }
+                    border: none;
+                    border-radius: 0px;
+                    border-bottom: 1px solid #e67aa9;
+                }
+            }
+
+      .creditCard{
+        width: 100%;
+        height: auto;
+        position: relative;
+        // background-color: #fff;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        margin-top: 140px !important;
+        // padding-bottom: 50px;
+        .card{
+            background-color: transparent;
+            border: none;
+          transform: translateY(-50px);
+          .cards{
+            background-color: red !important;
+          }
+        }       
+        form{
+            label{
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                transform: translateX(5px);
+            }
+            transform: translateY(-10px);
+            .numberInput{
+                width: 90%;
+                transition: 250ms;
+                height: 40px;
+                border-radius: 10px;
+                border: none;
+                border: 1px solid rgb(223, 223, 223);
+                background: transparent;
+                
+                &::placeholder{
+                    transform: translateX(5px);
+                }
+                   &:focus{
+                       outline: none;
+                       border: 1px solid #e67aa9;
+                       background-color: #fff;
+                    }
+            } 
+            .placeOrder{
+                padding: 10px 20px;
+                background-color: #e67aa9;
+                transition: 250ms;
+                .btn{
+                    color: #fff;
+                    text-decoration: none;
+                    font-family: 'Catamaran', sans-serif;
+                    font-weight: bold;
+                }
+                &:hover{
+                    background-color: #66e4f0;
+                    cursor: pointer;
+                }
+
+            }
+           
+        } 
+        
+      }
+         }
+    }   
+}

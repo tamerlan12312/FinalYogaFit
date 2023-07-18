@@ -1,0 +1,89 @@
+.blogdetails{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+   .container{
+    .d-flex{
+        p{
+            font-size: small;
+            color: rgb(85, 85, 85);
+            font-family: 'Catamaran', sans-serif; 
+        }
+    }
+    .imgp{
+        font-size: small;
+        color: rgb(85, 85, 85);
+        font-family: 'Catamaran', sans-serif;
+    }
+    .blogTitle{
+        font-size: 30px;
+        font-family: 'Poiret One', cursive;
+        transition: 250ms;
+        &:hover{
+            color: #CE7C9F;
+            cursor: pointer;
+        }
+    }
+    .classesTxt{
+        p{
+            font-family: 'Catamaran', sans-serif;
+            font-size: 20px;
+        }
+        .dflexp{
+            font-size: 15px;
+            font-family: 'Catamaran', sans-serif;
+        }
+        .dflexSpan{
+            font-size: small;
+            color: rgb(85, 85, 85);
+            font-family: 'Catamaran', sans-serif;
+        }
+        .dflexSpan1{
+            font-size: small;
+            color: #CE7C9F;
+            font-family: 'Catamaran', sans-serif;
+            transition: 250ms;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .likeProject{
+            .projectp{
+                font-size: 20px;
+                font-family: 'Catamaran', sans-serif;
+            }
+        }
+        .txtP{
+            .txtp1{
+                font-size: medium;
+                color: #CE7C9F;
+                font-family: 'Catamaran', sans-serif;
+                transition: 250ms;
+                &:hover{
+                    color: #62AED6;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .classesImg{
+        .more{
+            p{
+                font-size: 20px;
+                font-family: 'Catamaran', sans-serif;
+            }
+        }
+    }
+    .d-flex{
+        .morespan{
+            font-size: 17px;
+            font-family: 'Catamaran', sans-serif;
+            transition: 250ms;
+            &:hover{
+                color: #CE7C9F;
+                cursor: pointer;
+            }
+        }
+    }
+   }
+}

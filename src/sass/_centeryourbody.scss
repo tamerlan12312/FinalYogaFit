@@ -1,0 +1,50 @@
+.centeryourbody{
+    .centerimg{
+        width: 100%;
+        height: auto;
+        background-image: url("../assets/centerbody.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .centerp{
+         padding: 200px 0px 200px 0px;
+         line-height: 45px;
+      p{
+        text-align: center;
+        font-size: 75px;
+        font-family: 'Poiret One', cursive;
+        color: #CE7C9F; 
+      }  
+      .centertxt{
+        font-size: 40px;
+        font-family: 'Poiret One', cursive;
+        color: #6093E0;
+      }
+      .centertxt2{
+        font-size: small;
+        font-family: 'Catamaran', sans-serif;
+        transform: translateY(-10px);
+        color: rgb(143, 143, 143);
+      }
+    }
+}
+
+@media (max-width:768px){
+    .centeryourbody{
+      .centerimg{
+        .centerp{
+            line-height: 42px;
+            p{
+                font-size: 40px;
+            }
+            .centertxt{
+                font-size: 25px;
+            }
+            .centertxt2{
+                font-size: small;
+            }
+        }
+      }
+    }
+}

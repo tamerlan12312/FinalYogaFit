@@ -1,0 +1,75 @@
+.createacc{
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/aboutimg5.jpg");
+    background-color: #EBEBF3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .createaccp{
+        font-family: 'Poiret One', cursive;
+        font-size: 40px;
+        color: #2a303a;
+    }
+    .createaccp2{
+        font-family: 'Catamaran', sans-serif;
+        font-size: 15px;
+        transform: translateY(-55px);
+        color: #2a303a;
+    }
+    .contactusp1{
+        font-family: 'Catamaran', sans-serif;
+        color: #2a303a;
+        font-size: 20px;
+    }
+ form{
+    label{
+        font-family: 'Catamaran', sans-serif;
+        font-size: small;
+        span{
+            color: #CE7C9F;
+        }
+    }
+    .form-control{
+        border-radius: 0px;
+        background-color: transparent;
+        border: 2px solid #fff;
+        &:focus{
+            box-shadow: none;
+            border: 2px solid #CE7C9F;
+            background-color: transparent;
+        }
+    }
+    .sendbtn{
+        width: 160px;
+        height: 38px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: bold;
+        background-color: #EBECF2;
+        border: 2px solid #fff;
+        transition: 250ms;
+        &:hover{
+            background-color: #CE7C9F;
+            color: #fff;
+            border: none;
+        }
+        
+    }
+    .errormsg{
+        font-family: 'Catamaran', sans-serif;
+        font-size: small;
+        color: red;
+    }
+ }
+}
+
+
+
+@media (max-width:768px){
+
+    .createacc{
+        background-image: none;
+    }
+}

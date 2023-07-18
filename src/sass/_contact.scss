@@ -1,0 +1,79 @@
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: #EBECF2;
+    .container{
+      
+        .contactp{
+            font-size: small;
+            font-family: 'Catamaran', sans-serif;
+            color: rgb(109, 109, 109);
+        }
+        .d-flex{
+            .fa-location-arrow{
+                color: #CE7C9F;
+            }
+            .fa-envelope-circle-check{
+                color: #62AED6;
+            }
+        }
+        .contactRegister{
+            .crp{
+                font-size: 40px;
+                font-family: 'Poiret One', cursive;
+            }
+        }
+        label{
+            font-family: 'Catamaran', sans-serif;
+            font-size: small;
+            span{
+                color: #CE7C9F;
+            }
+        }
+        .form-control{
+            border-radius: 0px;
+            background-color: transparent;
+            border: 2px solid #fff;
+            &:focus{
+                box-shadow: none;
+                border: 2px solid #CE7C9F;
+            }
+        }
+        .contactbtn{
+            width: 140px;
+            height: 38px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bold;
+            background-color: #EBECF2;
+            border: 2px solid #fff;
+            transition: 250ms;
+            &:hover{
+                background-color: #CE7C9F;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+}
+
+.skilbar{
+    background-color: blue !important;
+    .skillbar-percent{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .contact{
+        .container{
+            .contactRegister{
+                .crp{
+                    text-align: center;
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}

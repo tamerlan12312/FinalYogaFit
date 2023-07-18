@@ -1,0 +1,46 @@
+.ourteamdetails{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+    .container{
+        .detailsname{
+            font-size: 30px;
+            font-family: 'Catamaran', sans-serif;
+            color: #6eafe0;
+            span{
+                font-size: 18px;
+                color: grey;
+            }
+        }
+        .imgp{
+            font-size: small;
+            color: rgb(85, 85, 85);
+            font-family: 'Catamaran', sans-serif;
+        }
+        .classesTxt{
+            p{
+                font-family: 'Catamaran', sans-serif;
+                font-size: 20px;
+            }
+            .dflexp{
+                font-size: 15px;
+                font-family: 'Catamaran', sans-serif;
+            }
+            .dflexSpan{
+                font-size: small;
+                color: rgb(85, 85, 85);
+                font-family: 'Catamaran', sans-serif;
+            }
+            .dflexSpan1{
+                font-size: small;
+                color: #CE7C9F;
+                font-family: 'Catamaran', sans-serif;
+                transition: 250ms;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+          
+        }
+       }
+}

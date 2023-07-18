@@ -1,0 +1,55 @@
+.upcoming{
+    .upcomingp{
+        font-size: 50px;
+        font-family: 'Poiret One', cursive;
+    }
+    .container{
+        .row{
+            margin-left: 45px;
+            .date{
+                .datep{
+                    font-size: small;
+                    color: rgb(95, 95, 95);
+                    font-family: 'Catamaran', sans-serif;
+                }
+                .datep1{
+                    font-size: 26px;
+                    transform: translateY(-23px);        
+                    font-weight: bold;    
+                    font-family: 'Catamaran', sans-serif;
+                    color: #3A4259;
+                }
+                .datep2{
+                    font-size: 20px;
+                    transform: translateY(-18px);           
+                    font-family: 'Catamaran', sans-serif;
+                    color: #2f3547;
+                    transition: 250ms;
+                    &:hover{
+                        color: #CE7C9F;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px){
+    .upcoming{
+        .upcomingp{
+            font-size: 35px;
+        }
+    }
+}
+
+@media (max-width:990px){
+    .upcoming{
+        .container{
+            .row{
+                margin-left: 0px;
+            }
+        }
+    }
+}

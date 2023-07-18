@@ -1,0 +1,52 @@
+.testimonials{
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/accordion.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    .slider{
+        .slick-next:before, .slick-prev:before{
+            display: none;
+        }
+        .slick-arrow .slick-next{
+            display: none !important;
+        }
+        .slick-next{
+            right: 0;
+        }
+        .slick-dots li button:before{
+            color: #fff !important;
+            border: 2px solid #fff !important;
+            border-radius: 50% !important;
+            width: 23px;
+            height: 23px;
+        }
+        .sliderp{
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Poiret One', cursive;
+            color: #fff;
+        }
+        .sliderName{
+            font-size: 22px;
+            font-weight: bold;
+            font-family: 'Poiret One', cursive;
+            color: #fff;
+        }
+        .sliderName1{
+            font-size: 13px;
+            font-family: 'Poiret One', cursive;
+            color: #fff;
+        }
+    }
+}
+
+
+@media (max-width:768px){
+   .testimonials{
+    .sliderp{
+        font-size: 15px !important;
+    }
+   }
+}

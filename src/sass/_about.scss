@@ -1,0 +1,247 @@
+.about{
+    width: 100%;
+    height: auto;
+    background-color: #EBEBF3;
+    .container{
+      padding-top: 100px;
+      padding-bottom: 100px;
+        .slider{
+            .slick-next:before, .slick-prev:before{
+                display: none;
+            }
+            .slick-arrow, .slick-next{
+                display: none !important;
+            }
+        }
+        .aboutBox{
+            .aboutp{
+                font-size: 40px;
+                font-family: 'Poiret One', cursive;
+            }
+            .aboutp1{
+                font-size: 13px;
+                font-family: 'Catamaran', sans-serif;
+            }
+            ul{
+                li{
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: small;
+                }
+            }
+            .aboutbtn{
+                width: 140px;
+                height: 38px;
+                border-radius: 50px;
+                font-size: 12px;
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                background-color: #EBECF2;
+                border: 2px solid #fff;
+                transition: 250ms;
+                &:hover{
+                    background-color: #CE7C9F;
+                    color: #fff;
+                    border: none;
+                }
+            }
+        }
+    }
+ 
+}
+
+.yogafitstudio{
+    width: 100%;
+    height: auto;
+    background-color: #6BC6CE;
+    .studiop{
+        font-family: 'Poiret One', cursive;
+        font-size: 40px;
+        color: #fff;
+    }
+    .iconBox{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            font-size: 23px;
+            color: #fff;
+        }
+    }
+    .iconTxt{
+        .iconp{
+            color: #fff;
+            font-family: 'Poiret One', cursive;
+            font-size: 23px;
+            font-weight: bold;
+        }
+        .iconp1{
+            color: #fff;
+            font-family: 'Catamaran', sans-serif;
+            font-size: 15px;
+        }
+    }
+}
+
+.ourteam{
+    width: 100%;
+    height: auto;
+    background-color:#EBEBF3;
+    .container{
+        .ourteamp{
+            font-family: 'Poiret One', cursive;
+            font-size: 40px;
+            color: #2a303a;
+        }
+        .teamBox{
+            width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            .d-flex{
+                img{
+                    width: 45%;
+                    border-radius: 50%;
+                }
+            }
+            .teamp{
+                font-family: 'Catamaran', sans-serif;
+                font-size: 23px;
+                transition: 250ms;
+                &:hover{
+                    color: #CE7C9F;
+                    cursor: pointer;
+                }
+            }
+            .teamp1{
+                transform: translateY(-20px);
+                font-size: small;
+                font-family: 'Catamaran', sans-serif;
+                color: #CE7C9F;
+            }
+            .teamp2{
+                transform: translateY(-27px);
+                font-size: small;
+                color: rgb(139, 139, 139);
+            }
+            .teambtn{
+                width: 115px;
+                height: 38px;
+                border-radius: 50px;
+                font-size: 12px;
+                font-family: 'Catamaran', sans-serif;
+                font-weight: bold;
+                background-color: #EBECF2;
+                border: 2px solid #fff;
+                transition: 250ms;
+                transform: translateY(-20px);
+                &:hover{
+                    background-color: #CE7C9F;
+                    color: #fff;
+                    border: none;
+                }
+            }
+          
+        }  .allteam{
+            width: 160px;
+            height: 38px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bold;
+            background-color: #EBECF2;
+            border: 2px solid #fff;
+            transition: 250ms;
+            &:hover{
+                background-color: #CE7C9F;
+                color: #fff;
+                border: none;
+            }
+        }
+
+    }
+}
+
+.peoplesay{
+    width: 100%;
+    height: auto;
+    background-color: #E5A950;
+    .container{
+  
+        .peoplesayp{
+            font-family: 'Poiret One', cursive;
+            font-size: 40px;
+            color: #fff;
+        }
+       .sliderBox{
+        border: 2px solid #fff;
+       
+        .sliderTxt{
+            position: relative;
+         
+            .sliderp{
+                color: #fff;
+                font-size: 20px;
+                font-family: 'Catamaran', sans-serif;
+                font-style: italic;
+              
+            }
+            .sliderp2{
+                color: #fff;
+                font-family: 'Catamaran', sans-serif;
+                font-size: small;
+                transform: translateY(-20px);
+            }
+        }
+     
+       }
+       .slick-dots li button:before{
+        font-size: 13px;
+        line-height: 50px;
+        color: #fff;
+     }
+ 
+        .slick-next:before, .slick-prev:before{
+            display: none !important;
+        }
+        .slick-arrow, .slick-next{
+            display: none !important;
+        }
+    
+     
+     .progressp{
+        font-size: 18px;
+        font-family: 'Catamaran', sans-serif;
+        color: #fff;
+     }
+     .progressBar{
+     .container{
+        background-color: transparent;
+        border-radius: 10px;
+     }
+        .label{
+            color: #E5A950;
+            font-weight: bold;
+            font-family: 'Catamaran', sans-serif;
+               transform: translateX(-8px);
+        }
+     }
+    }
+}
+
+
+
+@media (max-width:768px){
+    .peoplesay{
+        .container{
+            .row{
+                transform: translateY(15px);
+            }
+        }
+    }
+    .contactus{
+        background-image: none;
+    }
+}

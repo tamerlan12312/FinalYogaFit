@@ -1,0 +1,168 @@
+.blog{
+   width: 100%;
+   height: auto;
+   background-color: #EBEBF3;
+ .container{
+
+   .date{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95px;
+      height: 95px;
+      background-color: #EBEBF3;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      p{
+         
+         font-size: 30px;
+         color: #6eafe0;
+         font-family: 'Catamaran', sans-serif;
+         p{
+            font-size: medium;
+            color: grey;
+         }
+      }
+   }
+   .blogBox{
+      .blogp{
+         font-size: 27px;
+         font-family: 'Catamaran', sans-serif;
+         color: rgb(39, 39, 39);
+         transition: 250ms;
+         &:hover{
+            color: #CE7C9F;
+            cursor: pointer;
+         }
+      }
+      .blogp2{
+         font-family: 'Catamaran', sans-serif;
+         font-size: small;
+         span{
+            color: #CE7C9F;
+            transition: 250ms;
+            &:hover{
+               color: rgb(184, 184, 184);
+               cursor: pointer;
+            }
+         }
+      }
+      .sendbtn{
+         width: 110px;
+         height: 42px;
+         border-radius: 50px;
+         font-size: 12px;
+         font-family: 'Catamaran', sans-serif;
+         font-weight: bold;
+         background-color: #EBECF2;
+         border: 2px solid #fff;
+         transition: 250ms;
+         &:hover{
+             background-color: #CE7C9F;
+             color: #fff;
+             border: none;
+         }
+      }
+      .iconBox{
+         font-family: 'Catamaran', sans-serif;
+         transform: translateY(-20px) !important;
+         font-size: small;
+         color: grey;
+         i{
+            transition: 250ms;
+            &:hover{
+               cursor: pointer;
+               color: #CE7C9F;
+            }
+         }
+        p{
+         display: inline-block;
+         transform: translateY(-2px);
+        }
+      }
+   }
+   form{
+      transform: translateY(55px);
+      .form-control{
+         border-radius: 0px;
+         background-color: transparent;
+         border: 2px solid #fff;
+         border-right: none;
+         &:focus{
+            box-shadow: none;
+         }
+         &::placeholder{
+            font-family: 'Catamaran', sans-serif;
+            font-size: small;
+         }
+      }
+      .input-group-text{
+         border-radius: 0px;
+         border: 2px solid #fff;
+         background-color: transparent;
+         border-left: none;
+      
+         i{
+            font-size: small;
+            color: grey;
+         }
+         
+     }
+   }
+ }
+ .container{
+   .resultp{
+      font-size: 25px;
+      font-family: 'Catamaran', sans-serif;
+   }
+ }
+}
+
+
+@media (max-width:576px){
+   .blog{
+      .container{
+         .row{
+
+            .d-flex{
+                  display: flex;
+                  justify-content: start !important;
+                  margin: 0px 0px 20px 0px ;
+            }
+         }
+         form{
+            transform: translateY(0px);
+         }
+      }
+      .container{
+         .resultp{
+            font-size: 25px;
+            font-family: 'Catamaran', sans-serif;
+            transform: translateY(-30px);
+         }
+       }
+   }
+}
+
+@media (max-width:768px){
+   .blog{
+      .container{
+         .row{
+            .resultp{
+               font-size: 22px;
+            }
+         }
+         .iconBox{
+           display: none;
+         }
+      }
+   }
+}
+
+@media (max-width:998px){
+   .blog{
+      .blogBox{
+         margin-top: 30px;
+      }
+   }
+}

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+
+.experienceyoga{
+    background-color: #EBECF2;
+    .yogap{
+        font-size: 60px;
+        font-family: 'Poiret One', cursive;
+        color: #D07DA0;
+    }
+    .yogaTxtBox{
+        width: 890px;
+        .yogaTxt{
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Catamaran', sans-serif;
+            color: rgb(90, 90, 90);
+        }
+    }
+    .container{
+        .iconTxt{
+            .iconP{
+                font-family: 'Catamaran', sans-serif;
+                font-weight: 600;
+                font-size: 22px;
+                .txtspan{
+                    font-weight: none;
+                    font-size: 13px;
+                    color: grey;
+
+                }
+            }
+            .iconBox{
+                width: 60px;
+                height: 60px;
+                background-color: #6592D7;
+                border-radius: 50%;
+                border: 4px solid #a1c0ee;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               transition: 250ms;
+                &:hover{
+                    border: 4px solid #6592D7;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                i{
+                    transition: 250ms;
+                    font-size: 24px;
+                    font-weight: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .iconBox2{
+                width: 60px;
+                height: 60px;
+                background-color: #CD7399;
+                border-radius: 50%;
+                border: 4px solid #e49fbc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               transition: 250ms;
+                &:hover{
+                    border: 4px solid #CD7399;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                i{
+                    transition: 250ms;
+                    font-size: 24px;
+                    font-weight: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .iconBox3{
+                width: 60px;
+                height: 60px;
+                background-color: #E4926E;
+                border-radius: 50%;
+                border: 4px solid #f3aa8b;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               transition: 250ms;
+                &:hover{
+                    border: 4px solid #E4926E;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                i{
+                    transition: 250ms;
+                    font-size: 24px;
+                    font-weight: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .iconBox4{
+                width: 60px;
+                height: 60px;
+                background-color: #E3B26D;
+                border-radius: 50%;
+                border: 4px solid #f3c688;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               transition: 250ms;
+                &:hover{
+                    border: 4px solid #E3B26D;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                i{
+                    transition: 250ms;
+                    font-size: 24px;
+                    font-weight: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .iconBox5{
+                width: 60px;
+                height: 60px;
+                background-color: #72C4CB;
+                border-radius: 50%;
+                border: 4px solid #8adce4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               transition: 250ms;
+                &:hover{
+                    border: 4px solid #72C4CB;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                i{
+                    transition: 250ms;
+                    font-size: 24px;
+                    font-weight: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .iconBox6{
+                width: 60px;
+                height: 60px;
+                background-color: #61ACD4;
+                border-radius: 50%;
+                border: 4px solid #7ab6d6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               transition: 250ms;
+                &:hover{
+                    border: 4px solid #61ACD4;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                i{
+                    transition: 250ms;
+                    font-size: 24px;
+                    font-weight: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    #yourTraining{
+        width: 100%;
+        height: auto;
+        background-color: #73C6CD;
+        .trainingp{
+            color: #fff;
+            font-size: 40px;
+            font-family: 'Poiret One', cursive;
+        }
+        .bookNow{
+            padding: 8px 30px;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            transition: 250ms;
+            a{
+                text-decoration: none;
+                font-family: 'Catamaran', sans-serif;   
+                font-weight: bold;
+                color: #fff;
+                transition: .2s;
+                font-size: 15px;
+            }
+            &:hover{
+                background-color: #fff;
+                a{
+                    color:#73C6CD ;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px){
+    .experienceyoga{
+        .yogap{
+            font-size: 35px;
+        }
+        .lineImg{
+            width: 40px;
+            margin: 5px 0px 5px 0px;
+        }
+        .yogaTxtBox{
+            .yogaTxt{
+                font-size: 18px;
+            }
+        }
+        .container{
+            .d-flex{
+                justify-content: start !important;
+            }
+            .flex2{
+                justify-content: end !important;
+            }
+        }
+        #yourTraining{
+            .trainingp{
+                font-size: 20px;
+            }
+            .bookNow{
+                 padding: 3px 20px;
+                 a{
+                    font-size: small;
+                 }
+            }
+        }
+    }
+   
+}
